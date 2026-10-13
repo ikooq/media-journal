@@ -1,0 +1,2 @@
+-- Deliberately empty: signup creates profiles, and create_shared_space inserts
+-- default categories exactly once. Never seed passwords or real private journals.
