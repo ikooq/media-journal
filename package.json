@@ -43,7 +43,7 @@
     "jsdom": "^26.1.0",
     "postcss": "8.5.30",
     "prettier": "3.9.10",
-    "supabase": "2.120.0",
+    "supabase": "3.3.0",
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2",
     "vitest": "4.1.12"
