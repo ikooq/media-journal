@@ -45,7 +45,7 @@
     "prettier": "3.10.1",
     "supabase": "2.122.1",
     "tailwindcss": "^4.1.13",
-    "typescript": "^5.9.2",
+    "typescript": "^7.0.2",
     "vitest": "4.1.12"
   },
   "overrides": {
