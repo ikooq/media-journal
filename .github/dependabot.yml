@@ -8,6 +8,13 @@ updates:
     groups:
       minor-and-patch:
         update-types: [minor, patch]
+    ignore:
+      # Types must match the Node.js the app runs on (22), not the newest one.
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
+      # CLI 3 drops --local/--linked used by scripts/generate-db-types.mjs and the README.
+      - dependency-name: "supabase"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: github-actions
     directory: /
     schedule:
