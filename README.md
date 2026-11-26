@@ -2,6 +2,19 @@
 
 A private shared media journal built with Next.js 15 App Router, React, strict TypeScript, Tailwind, and Supabase. The original visual design is retained. PostgreSQL is the source of truth; there is no local content database or demo mode.
 
+## Live demo
+
+**https://media-journal-six.vercel.app** runs this repository on Vercel with its own Supabase project.
+
+Sign in with one of two shared demo accounts that are already in one space with a few videos, notes, ratings and a "watch together" list:
+
+| Account | Email | Password |
+|---|---|---|
+| Aru (owner) | `demo1@example.com` | `shelf-demo-2026` |
+| Timur (member) | `demo2@example.com` | `shelf-demo-2026` |
+
+Open each in a different browser to see the shared space update live. The accounts are public, so anyone can change or delete the demo data, and it may be reset. Sign-up works, but the demo project uses Supabase’s built-in mail, which does not deliver confirmation emails to outside addresses, so new accounts cannot be confirmed there.
+
 ## Start locally
 
 Requirements: Node 22+, npm, and a Supabase project. Docker Desktop or Podman is needed only for the full local Supabase stack. PostgreSQL/RLS tests also run without Docker through PGlite.
